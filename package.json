@@ -1,0 +1,10 @@
+{
+  "name": "expense-splitter",
+  "version": "0.1.0",
+  "description": "A utility for splitting expenses among a group of people.",
+  "main": "index.js",
+  "author": "Scott Wagner",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
