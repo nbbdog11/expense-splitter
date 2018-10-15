@@ -4,11 +4,7 @@ import { EVENLY, CUSTOM_PERCENTAGES } from '../splitTypes';
 describe('splitter', () => {
   describe('splits evenly', () => {
     it('when split type is not specified', () => {
-      const people = [
-        { id: '1' },
-        { id: '2' },
-        { id: '3' },
-      ];
+      const people = [{ id: '1' }, { id: '2' }, { id: '3' }];
       const cost = {
         amount: 30,
       };
@@ -23,11 +19,7 @@ describe('splitter', () => {
     });
 
     it('a cost evenly divisible by number of people', () => {
-      const people = [
-        { id: '1' },
-        { id: '2' },
-        { id: '3' },
-      ];
+      const people = [{ id: '1' }, { id: '2' }, { id: '3' }];
       const cost = {
         amount: 30,
         splitType: EVENLY,
