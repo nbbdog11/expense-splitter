@@ -1,2 +1,2 @@
-export const EVENLY = 'EVENLY'
-export const CUSTOM_PERCENTAGES = 'CUSTOM_PERCENTAGES'
+export const EVENLY = 'EVENLY';
+export const CUSTOM_PERCENTAGES = 'CUSTOM_PERCENTAGES';
